@@ -60,7 +60,7 @@
     if (self) {
         
         self.listingsRequestController = [[TSCRequestController alloc] initWithBaseAddress:@"https://ibl.api.bbci.co.uk/ibl/v1/"];
-        self.episodeStreamRequestController = [[TSCRequestController alloc] initWithBaseAddress:@"http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/format/json/mediaset/apple-iphone4-hls/vpid/"];
+        self.episodeStreamRequestController = [[TSCRequestController alloc] initWithBaseAddress:@"http://open.live.bbc.co.uk/mediaselector/6/select/version/2.0/mediaset/iptv-all/vpid/"];
         self.searchRequestController = [[TSCRequestController alloc] initWithBaseAddress:@"http://search-suggest.api.bbci.co.uk/search-suggest/"];
         
     }
